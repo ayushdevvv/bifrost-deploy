@@ -1,0 +1,9 @@
+
+{
+  "name": "rift-bifrost",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx -y @maximhq/bifrost -host 0.0.0.0 -port $PORT -app-dir ./data"
+  }
+}
